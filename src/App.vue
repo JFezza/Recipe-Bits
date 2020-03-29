@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
@@ -12,15 +11,19 @@ export default {
 </script>
 
 <style>
+html{
+  height: 100%;
+}
 body {
   color: #FFFFFF;
   background-color: #13161C;
+  height: 100%;
 }
 #app {
   /* font-family: 'Avenir', Helvetica, Arial, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 </style>
